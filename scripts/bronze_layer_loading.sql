@@ -6,7 +6,7 @@
 
 Create or alter procedure bronze.load_bronze_layer as 
 begin
-	declare @strt Datetime, @end Datetime; -- adding time stamp to check how much time it took to completet the loading individual table
+	declare @strt Datetime, @end Datetime; -- adding time stamp to check how much time it takes to completet the loading individual table
 
 	begin try  -- Error handling
 		print '-----------------------------------------------------------------------';
